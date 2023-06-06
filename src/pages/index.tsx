@@ -11,8 +11,8 @@ export default function Home() {
 
   return (
     <Layout user={user}>
-      <Login setUser={setUser} />
       {user && <Map />}
+      <Login setUser={setUser} />
     </Layout>
   );
 }

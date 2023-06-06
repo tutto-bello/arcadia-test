@@ -22,7 +22,7 @@ const Login = (props: LoginProps) => {
 
   if (session) {
     return (
-      <div className="text-center">
+      <div className="text-center my-4">
         <h2 className="text-xl font-bold">Hello there!</h2>
         <p>Good to see you {session?.user?.name}</p>
         <h2>If you want quit, please click on the Sign out</h2>
@@ -30,7 +30,7 @@ const Login = (props: LoginProps) => {
         <button
           onClick={() => signOut()}
           type="button"
-          className="bg-gray-500 p-2 rounded-md hover:opacity-80 mt-4"
+          className="bg-gray-500 p-2 rounded-md hover:opacity-80 my-4"
         >
           Sign out
         </button>
@@ -38,10 +38,10 @@ const Login = (props: LoginProps) => {
     );
   } else {
     return (
-      <div className="text-center">
+      <div className="text-center my-4">
         <h2 className="text-xl font-bold max-w-md mx-auto">
-          If you want to see a map please click on the Sign in button and use
-          Google sign in.
+          If you want to see a Cesium map please click on the Sign in button and
+          use Google sign in.
         </h2>
         <button
           onClick={() => signIn()}

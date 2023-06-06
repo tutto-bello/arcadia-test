@@ -53,7 +53,7 @@ const Navbar = (props: NavbarProps) => {
                 className="ml-4 bg-gray-500 p-2 rounded-md hover:opacity-80"
                 onClick={() => signOut()}
               >
-                Logout
+                Sign out
               </button>
             </>
           ) : (

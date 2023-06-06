@@ -9,6 +9,7 @@ const Footer = () => {
           <a
             href="https://arcadiaastronautics.recruitee.com/"
             className="flex items-center mb-4 sm:mb-0"
+            target="_blank"
           >
             <Image src="/logo.png" alt="Arcadia Logo" width={40} height={40} />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -17,7 +18,11 @@ const Footer = () => {
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#" className="hover:underline">
+              <a
+                href="https://arcadia.dev/contact-us.html"
+                className="hover:underline"
+                target="_blank"
+              >
                 Contact
               </a>
             </li>
@@ -29,6 +34,7 @@ const Footer = () => {
           <a
             href="https://arcadiaastronautics.recruitee.com/"
             className="hover:underline"
+            target="_blank"
           >
             Arcadia™
           </a>
