@@ -24,7 +24,9 @@ const Map = () => {
 
   const getCoordinate = async () => {
     try {
-      const res = await fetch(`http://localhost:3000/api/get-coordinate`);
+      const res = await fetch(
+        process.env.NEXT_PUBLIC_BASEURL + `/api/get-coordinate`
+      );
       const data = await res.json();
       setData(data);
     } catch (error) {
