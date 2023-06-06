@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "symlink-dir node_modules/cesium/Build/Cesium public/Cesium"
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/node": "20.2.5",
